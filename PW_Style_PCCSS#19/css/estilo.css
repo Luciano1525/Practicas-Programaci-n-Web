@@ -1,0 +1,15 @@
+/* Estilos adicionales para hacer la página más presentable */
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Agrega estilos personalizados según sea necesario */

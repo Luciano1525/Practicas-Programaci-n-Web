@@ -1,0 +1,35 @@
+/* Estilo base para las cajas */
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Márgenes y rellenos con diferentes valores */
+
+#box1 {
+    background-color: #3498db;
+    margin: 10px; /* Márgen uniforme de 10px */
+}
+
+#box2 {
+    background-color: #e74c3c;
+    margin: 10px 20px; /* Márgenes vertical y horizontal de 10px y 20px, respectivamente */
+    padding: 20px; /* Relleno uniforme de 20px */
+}
+
+#box3 {
+    background-color: #2ecc71;
+    margin: 10px 20px 30px; /* Márgenes superior, horizontal e inferior de 10px, 20px y 30px, respectivamente */
+    padding: 15px 25px; /* Relleno vertical y horizontal de 15px y 25px, respectivamente */
+}
+
+#box4 {
+    background-color: #f39c12;
+    margin: 10px 20px 30px 40px; /* Márgenes superior, derecho, inferior e izquierdo de 10px, 20px, 30px y 40px, respectivamente */
+    padding: 10px 15px 20px 25px; /* Relleno superior, derecho, inferior e izquierdo de 10px, 15px, 20px y 25px, respectivamente */
+}

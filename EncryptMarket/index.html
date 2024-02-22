@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncryptMarket - Innovación y Seguridad</title>
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="css/nombre.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="tu_logo.png" alt="EncryptMarket Logo">
+        <h1>EncryptMarket</h1>
+        <p>Innovación y seguridad, al alcance de un click</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="acerca-de.html">Acerca de Nosotros</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+    </nav>
+
+    <section id="contenido">
+        <!-- Contenido dinámico cargado según la página seleccionada -->
+        <?php
+            $page = isset($_GET['page']) ? $_GET['page'] : 'inicio';
+            include $page . '.html';
+        ?>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

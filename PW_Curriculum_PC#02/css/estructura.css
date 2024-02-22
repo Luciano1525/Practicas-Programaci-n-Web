@@ -1,0 +1,51 @@
+/* Estilo Curriculum */
+/*Estilo de la Foto*/
+.Foto {
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.Margen {
+    text-align:center;
+    background-color: #D2F7FF;
+}
+
+/* Estilos para alinear la foto con el nombre y título */
+.Nombre {
+    margin-top: 0;
+    color: #333; /* Color de texto para el nombre */
+}
+
+.Licenciado {
+    margin-top: 5px;
+    color: #666; /* Color de texto para el título */
+}
+
+/* Estilos para las secciones de Contacto, Habilidades y Educación */
+.Seccion {
+    background-color: #f8f8f8; /* Color de fondo para las secciones */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para las etiquetas h3 dentro de las secciones */
+.Seccion h3 {
+    color: #3498db; /* Color de texto para las etiquetas h3 */
+}
+
+/* Estilos para las etiquetas p dentro de las secciones */
+.Seccion p {
+    color: #555; /* Color de texto para los párrafos */
+}
+
+/* Estilos para la sección de Acerca de Mí */
+.AcercaDeMi {
+    background-color: #ecf0f1; /* Color de fondo específico para esta sección */
+}
+
+/* Estilos para la sección de Experiencia Laboral */
+.ExperienciaLaboral {
+    background-color: #d4e6f1; /* Color de fondo específico para esta sección */
+}

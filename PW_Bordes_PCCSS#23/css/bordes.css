@@ -1,0 +1,26 @@
+/* Estilo base para los elementos con bordes */
+.border-example {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Bordes con diferentes estilos, colores y grosores */
+
+#border1 {
+    border: 2px solid #333; /* Borde sólido de 2px en color negro */
+}
+
+#border2 {
+    border: 5px dotted #0066cc; /* Borde punteado de 5px en color azul */
+}
+
+#border3 {
+    border: 3px dashed #ff6600; /* Borde discontinuo de 3px en color naranja */
+}
+
+#border4 {
+    border: 1px double #999; /* Borde doble de 1px en color gris */
+}

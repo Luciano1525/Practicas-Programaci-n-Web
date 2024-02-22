@@ -1,0 +1,67 @@
+/* Estilos base para la página de repaso */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo-principal {
+    color: #fff;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.parrafo-destacado {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+#contenedor-principal {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #999;
+}
+
+.parrafo-normal {
+    color: #0066cc;
+}
+
+/* Bordes con diferentes estilos, colores y grosores */
+.bordered-box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+#borderedBox1 {
+    border: 2px solid #333; /* Borde sólido de 2px en color negro */
+    background-color: #3498db;
+}
+
+#borderedBox2 {
+    border: 5px dotted #0066cc; /* Borde punteado de 5px en color azul */
+    background-color: #e74c3c;
+}
+
+/* Márgenes y rellenos con diferentes valores */
+.boxed-margins {
+    width: 300px;
+    margin: 20px 10px 30px;
+    padding: 15px 20px;
+    background-color: #2ecc71;
+    border: 2px solid #27ae60;
+}

@@ -1,0 +1,38 @@
+/* Estilos base para la página de la Bandera de Andalucía */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: auto; /* Se utiliza para contener las cajas flotantes */
+}
+
+.caja-float {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background-color: #3498db;
+    float: left;
+    box-sizing: border-box; /* Ajusta el tamaño total incluyendo el padding y el borde */
+}
+
+.izquierda {
+    clear: left; /* Evita que otras cajas floten a la izquierda */
+}
+
+.caja-clear {
+    clear: both; /* Evita que otras cajas floten a su alrededor */
+    margin: 10px;
+    padding: 15px;
+    background-color: #e74c3c;
+}
+
+.derecha {
+    float: right;
+    clear: right; /* Evita que otras cajas floten a la derecha */
+}

@@ -1,0 +1,33 @@
+/* Estilos de Bootstrap (si es necesario) */
+@import url('css/bootstrap.rtl.min.css');
+
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e7b2; /* Color crema */
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor-principal {
+    position: relative;
+}
+
+.grupo-cajas {
+    flex: 1;
+    background-color: #ffc0cb; /* Color rosado */
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.caja {
+    border: 1px solid #333;
+}
+
+#caja2 {
+    position: absolute;
+    top: 30px; /* Coordenada Y */
+    left: 40px; /* Coordenada X */
+}

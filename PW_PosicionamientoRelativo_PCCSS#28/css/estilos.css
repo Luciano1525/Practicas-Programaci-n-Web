@@ -1,0 +1,35 @@
+/* Asegúrate de incluir tus estilos después de los estilos de Bootstrap */
+/* Estilos de Bootstrap */
+@import url('css/bootstrap.rtl.min.css');
+
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e7b2; /* Color crema */
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.grupo-cajas {
+    flex: 1;
+    background-color: #ffc0cb !important; /* Color rosado con !important */
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.caja {
+    border: 1px solid #333;
+}
+
+#caja2 {
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
